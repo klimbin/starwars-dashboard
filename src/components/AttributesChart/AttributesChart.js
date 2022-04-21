@@ -10,23 +10,24 @@ function AttributesChart({chartData, attribute}) {
         width={800}
         height={250}
         data={chartData}
-        layout="vertical"
-        barGap={20}
-        margin={{right: 55}}
+        margin={{right: 75}}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis
+        <YAxis
           type="number"
+          width={145}
           dataKey={attribute}
           tickFormatter={formatNumberString}
           interval="preserveStart"
           allowDataOverflow
         />
-        <YAxis
-          width={125}
+        <XAxis
           type="category"
+          height={60}
           dataKey="name"
           interval={0}
+          angle={30}
+          dy={15}
         />
         <Tooltip formatter={formatNumberString}/>
         <Bar
