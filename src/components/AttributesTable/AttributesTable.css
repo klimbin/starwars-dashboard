@@ -1,0 +1,27 @@
+.left {
+    text-align: left;
+}
+
+.AttributesTable {
+    text-align: right;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+
+.AttributesTable thead tr {
+    background-color: #212121;
+    font-weight: bold;
+    color: white;
+}
+
+.AttributesTable th, .AttributesTable td {
+    padding: 8px;
+}
+
+.AttributesTable tr:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.TableBody tr:nth-of-type(2n-1) {
+    background-color: #f5f5f5;
+}
