@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/starwars-dashboard/static/js/3.451dfcd2.chunk.js"
   },
   {
-    "revision": "72014355f4abf774040fb5778e14235b",
+    "revision": "7d4acc72bd8834865c8b3c8e10bd7498",
     "url": "/starwars-dashboard/index.html"
   }
 ];
